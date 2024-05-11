@@ -39,6 +39,7 @@ namespace Dominio
         public Marca() { }
         public int IDMarca { get; set; }
         public string DescripcionMarca { get; set; }
+
     }
 
 }

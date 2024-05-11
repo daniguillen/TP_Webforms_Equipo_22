@@ -8,16 +8,19 @@ using System.Net.Configuration;
 using System.Data.SqlTypes;
 using System.Reflection;
 using Dominio;
+using System.Text.RegularExpressions;
 
 namespace Acciones
 {
     public class Controller
     {
-        
-        
+
+
         public List<Articulo> ListarArticulo()
         {
-            List<Articulo> Lista= new List<Articulo> ();
+            List<Articulo> Lista = new List<Articulo>();
+            List<Marca> ListaMarca = new List<Marca>();
+            List <Categoria> ListaCategoria = new List<Categoria>();
             AccesoDatos lector = new AccesoDatos();
 
             lector.setearQuery("SELECT a.id,a.Codigo, a.Nombre, a.Descripcion, a.Precio,  m.id as IDMarca, m.Descripcion AS Marca,  c.Id AS IDCategoria,  c.Descripcion ,i.ImagenUrl FROM ARTICULOS a inner JOIN marcas m ON a.IdMarca = m.Id inner JOIN categorias c ON a.idcategoria = c.id inner JOIN IMAGENES i ON a.id = i.IdArticulo;");
@@ -26,15 +29,18 @@ namespace Acciones
             while (lector.Lector.Read()) {
 
                 Articulo aux=new Articulo();
+                Marca auxM = new Marca();
+                Categoria auxC = new Categoria();
+
                 aux.id= lector.Lector.GetInt32(0);
                 aux.Codigo = lector.Lector.GetString(1);
                 aux.Nombre=lector.Lector.GetString(2);
                 aux.Descripcion = lector.Lector.GetString(3);
                 aux.Precio=lector.Lector.GetSqlMoney(4);
-                aux.IDMarca=lector.Lector.GetInt32 (5);
-                aux.Marca = lector.Lector.GetString(6);
-                aux.IDCategoria = lector.Lector.GetInt32(7);
-                aux.Categoria = lector.Lector.GetString(8);
+                auxM.IDMarca = lector.Lector.GetInt32 (5);
+                auxM.DescripcionMarca = lector.Lector.GetString(6);
+                auxC.IDCategoria = lector.Lector.GetInt32(7);
+                auxC.DescripcionCaterogia= lector.Lector.GetString(8);
                 aux.Imagen=lector.Lector.GetString(9);
                                                                    
                 Lista.Add(aux);
@@ -51,21 +57,26 @@ namespace Acciones
         {
             AccesoDatos nuevaConexion = new AccesoDatos();
             List<Articulo> articuloList = new List<Articulo>();
+            List<Marca> ListaMarca = new List<Marca>();
+            List<Categoria> ListaCategoria = new List<Categoria>();
 
             nuevaConexion.setearQuery("SELECT a.id ,a.Codigo, a.Nombre, a.Descripcion, a.Precio,  m.id as IDMarca, m.Descripcion AS Marca, \r\nCASE WHEN c.Id IS NULL THEN '0' ELSE c.Id END AS IDCategoria, \r\nCASE WHEN c.Descripcion IS NULL THEN '0' ELSE c.Descripcion END ,i.ImagenUrl \r\nFROM ARTICULOS a\r\nLEFT JOIN marcas m ON a.IdMarca = m.Id\r\nLEFT JOIN categorias c ON a.idcategoria = c.id \r\nLEFT JOIN IMAGENES i ON a.id = i.IdArticulo where a.Nombre like '%" + buscar + "%' or a.Descripcion like '%" + buscar + "%' or m.Descripcion like '%" + buscar + "%' or c.Descripcion like '%" + buscar + "%';");
             nuevaConexion.ejecutarLectura();
             while (nuevaConexion.Lector.Read())
             {
                 Articulo aux = new Articulo();
+                Marca auxM = new Marca();
+                Categoria auxC = new Categoria();
+
                 aux.id= nuevaConexion.Lector.GetInt32(0);
                 aux.Codigo = nuevaConexion.Lector.GetString(1);
                 aux.Nombre = nuevaConexion.Lector.GetString(2);
                 aux.Descripcion = nuevaConexion.Lector.GetString(3);
                 aux.Precio = nuevaConexion.Lector.GetSqlMoney(4);
-                aux.IDMarca = nuevaConexion.Lector.GetInt32(5);
-                aux.Marca = nuevaConexion.Lector.GetString(6);
-                aux.IDCategoria = nuevaConexion.Lector.GetInt32(7);
-                aux.Categoria = nuevaConexion.Lector.GetString(8);
+                auxM.IDMarca = nuevaConexion.Lector.GetInt32(5);
+                auxM.DescripcionMarca = nuevaConexion.Lector.GetString(6);
+                auxC.IDCategoria = nuevaConexion.Lector.GetInt32(7);
+                auxC.DescripcionCaterogia = nuevaConexion.Lector.GetString(8);
                 aux.Imagen = nuevaConexion.Lector.GetString(9);
 
                 articuloList.Add(aux);
@@ -75,49 +86,51 @@ namespace Acciones
             return articuloList;
         }
         //consulta de marca
-        public List<Articulo> Marca() {
+        public List<Marca> Marca() {
             AccesoDatos nuevaConexion = new AccesoDatos();
-            List<Articulo> articuloList = new List<Articulo>();
+            
+            List<Marca> ListaMarca = new List<Marca>();
+           
 
             nuevaConexion.setearQuery("SELECT * from Marcas"); 
             nuevaConexion.ejecutarLectura();
             while (nuevaConexion.Lector.Read())
             {
-                Articulo aux= new Articulo();
-                aux.IDMarca = nuevaConexion.Lector.GetInt32(0);
-                aux.Marca = nuevaConexion.Lector.GetString(1);
-                articuloList.Add(aux);
+                Marca auxM = new Marca();
+                auxM.IDMarca = nuevaConexion.Lector.GetInt32(5);
+                auxM.DescripcionMarca = nuevaConexion.Lector.GetString(6);
+                ListaMarca.Add(auxM);
             }
             nuevaConexion.cerrarConexion();
-            return articuloList;
+            return ListaMarca;
         }
 
         //consulta de categoria 
-        public List<Articulo> Categoria()
+        public List<Categoria> Categoria()
         {
             AccesoDatos nuevaConexion = new AccesoDatos();
-            List<Articulo> articuloList = new List<Articulo>();
+            List<Categoria> Categorias = new List<Categoria>();
             nuevaConexion.setearQuery("SELECT * from Categorias");
             nuevaConexion.ejecutarLectura();
             while (nuevaConexion.Lector.Read())
             {
-                Articulo aux = new Articulo();
-                aux.IDCategoria = nuevaConexion.Lector.GetInt32(0);
-                aux.Descripcion = nuevaConexion.Lector.GetString(1);
-                articuloList.Add(aux);
+                Categoria auxC = new Categoria();
+                auxC.IDCategoria = nuevaConexion.Lector.GetInt32(0);
+                auxC.DescripcionCaterogia = nuevaConexion.Lector.GetString(1);
+                Categorias.Add(auxC);
             }
 
             nuevaConexion.cerrarConexion();
-            return articuloList;
+            return Categorias;
         }
 
         //modificar
-        public void Modificar(Articulo Modificar)
+        public void Modificar(Articulo Modificar, Marca marca, Categoria categoria)
         {
 
             AccesoDatos nuevaConexion = new AccesoDatos();
             
-            nuevaConexion.setearQuery("update ARTICULOS set Codigo='"+ Modificar.Codigo + "', Nombre='" + Modificar.Nombre + "', Descripcion='"+ Modificar.Descripcion + "',IdMarca='"+ Modificar.IDMarca + "', IdCategoria='"+ Modificar.IDCategoria + "', precio='" + Modificar.Precio + "' where id= '" + Modificar.id + "' update IMAGENES set ImagenUrl='" + Modificar.Imagen + "' where '" + Modificar.id + "'=IMAGENES.IdArticulo");
+            nuevaConexion.setearQuery("update ARTICULOS set Codigo='"+ Modificar.Codigo + "', Nombre='" + Modificar.Nombre + "', Descripcion='"+ Modificar.Descripcion + "',IdMarca='"+ marca.IDMarca + "', IdCategoria='"+ categoria.IDCategoria + "', precio='" + Modificar.Precio + "' where id= '" + Modificar.id + "' update IMAGENES set ImagenUrl='" + Modificar.Imagen + "' where '" + Modificar.id + "'=IMAGENES.IdArticulo");
             nuevaConexion.ejecutarLectura();
             nuevaConexion.cerrarConexion();
             
@@ -125,44 +138,45 @@ namespace Acciones
         }
 
 
-        public List<Articulo> Busquedad(string buscar)
+        public List<Busqueda> Busqueda(string buscar)
         {
             AccesoDatos nuevaConexion = new AccesoDatos();
-            List<Articulo> Lista = new List<Articulo>();
-            //SqlConnection conexion = new SqlConnection();
-            //SqlCommand commando = new SqlCommand();
-            //SqlDataReader lector;
 
-                //   conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true;";
-                //   commando.CommandType = System.Data.CommandType.Text;
-                //  commando.CommandText = "SELECT a.id, a.Codigo, a.Nombre, a.Descripcion, a.Precio,  m.id as IDMarca, m.Descripcion AS Marca, CASE WHEN c.Id IS NULL THEN '0' ELSE c.Id END AS IDCategoria, \r\nCASE WHEN c.Descripcion IS NULL THEN '0' ELSE c.Descripcion END ,i.ImagenUrl FROM ARTICULOS a LEFT JOIN marcas m ON a.IdMarca = m.Id LEFT JOIN categorias c ON a.idcategoria = c.id  LEFT JOIN IMAGENES i ON a.id = i.IdArticulo where a.Nombre like '%"+ buscar + "%' or a.Descripcion like '%" + buscar + "%' or m.Descripcion like '%" + buscar + "%' or c.Descripcion like '%" + buscar + "%';";
-                //  commando.Connection = conexion;
-                //   conexion.Open();
-                //   lector = commando.ExecuteReader();
-                nuevaConexion.setearQuery("SELECT a.id, a.Codigo, a.Nombre, a.Descripcion, a.Precio,  m.id as IDMarca, m.Descripcion AS Marca, CASE WHEN c.Id IS NULL THEN '0' ELSE c.Id END AS IDCategoria, \r\nCASE WHEN c.Descripcion IS NULL THEN '0' ELSE c.Descripcion END ,i.ImagenUrl FROM ARTICULOS a LEFT JOIN marcas m ON a.IdMarca = m.Id LEFT JOIN categorias c ON a.idcategoria = c.id  LEFT JOIN IMAGENES i ON a.id = i.IdArticulo where a.Nombre like '%" + buscar + "%' or a.Descripcion like '%" + buscar + "%' or m.Descripcion like '%" + buscar + "%' or c.Descripcion like '%" + buscar + "%';");
+            List<Articulo> articuloList = new List<Articulo>();
+            List<Marca> ListaMarca = new List<Marca>();
+            List<Categoria> ListaCategoria = new List<Categoria>();
+            List< Busqueda> Resultado = new List<Busqueda>();
+
+            nuevaConexion.setearQuery("SELECT a.id, a.Codigo, a.Nombre, a.Descripcion, a.Precio,  m.id as IDMarca, m.Descripcion AS Marca, CASE WHEN c.Id IS NULL THEN '0' ELSE c.Id END AS IDCategoria, \r\nCASE WHEN c.Descripcion IS NULL THEN '0' ELSE c.Descripcion END ,i.ImagenUrl FROM ARTICULOS a LEFT JOIN marcas m ON a.IdMarca = m.Id LEFT JOIN categorias c ON a.idcategoria = c.id  LEFT JOIN IMAGENES i ON a.id = i.IdArticulo where a.Nombre like '%" + buscar + "%' or a.Descripcion like '%" + buscar + "%' or m.Descripcion like '%" + buscar + "%' or c.Descripcion like '%" + buscar + "%';");
                 nuevaConexion.ejecutarLectura();
-            
-                while (nuevaConexion.Lector.Read())
-                {
 
-                    Articulo aux = new Articulo();
-                    aux.id = nuevaConexion.Lector.GetInt32(0);
-                    aux.Codigo = nuevaConexion.Lector.GetString(1);
-                    aux.Nombre = nuevaConexion.Lector.GetString(2);
-                    aux.Descripcion = nuevaConexion.Lector.GetString(3);
-                    aux.Precio = nuevaConexion.Lector.GetSqlMoney(4);
-                    aux.IDMarca = nuevaConexion.Lector.GetInt32(5);
-                    aux.Marca = nuevaConexion.Lector.GetString(6);
-                    aux.IDCategoria = nuevaConexion.Lector.GetInt32(7);
-                    aux.Categoria = nuevaConexion.Lector.GetString(8);
-                    aux.Imagen = nuevaConexion.Lector.GetString(9);
+            while (nuevaConexion.Lector.Read())
+            {
 
-                    Lista.Add(aux);
+                Articulo aux = new Articulo();
+                Marca auxM = new Marca();
+                Categoria auxC = new Categoria();
+                Busqueda auxResultado = new Busqueda();
+                aux.id = nuevaConexion.Lector.GetInt32(0);
+                aux.Codigo = nuevaConexion.Lector.GetString(1);
+                aux.Nombre = nuevaConexion.Lector.GetString(2);
+                aux.Descripcion = nuevaConexion.Lector.GetString(3);
+                aux.Precio = nuevaConexion.Lector.GetSqlMoney(4);
+                auxM.IDMarca = nuevaConexion.Lector.GetInt32(5);
+                auxM.DescripcionMarca = nuevaConexion.Lector.GetString(6);
+                auxC.IDCategoria = nuevaConexion.Lector.GetInt32(7);
+                auxC.DescripcionCaterogia = nuevaConexion.Lector.GetString(8);
+                aux.Imagen = nuevaConexion.Lector.GetString(9);
 
-                }
+                auxResultado.Articulos.Add(aux);
+                auxResultado.Marcas.Add(auxM);
+                auxResultado.Categorias.Add(auxC);
+
+                Resultado.Add(auxResultado);
+            }
 
                 nuevaConexion.cerrarConexion();
-                return Lista;
+                return Resultado;
         }
 
  

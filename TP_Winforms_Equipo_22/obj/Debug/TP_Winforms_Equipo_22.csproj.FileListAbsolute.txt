@@ -302,3 +302,7 @@ C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\TP_Winforms_Equipo_22\
 C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\TP_Winforms_Equipo_22\obj\Debug\TP_Winfo.1C4B8902.Up2Date
 C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\TP_Winforms_Equipo_22\obj\Debug\TP_Winforms_Equipo_22.dll
 C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\TP_Winforms_Equipo_22\obj\Debug\TP_Winforms_Equipo_22.pdb
+C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\TP_Winforms_Equipo_22\bin\Acciones.dll
+C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\TP_Winforms_Equipo_22\bin\Dominio.dll
+C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\TP_Winforms_Equipo_22\bin\Acciones.pdb
+C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\TP_Winforms_Equipo_22\bin\Dominio.pdb

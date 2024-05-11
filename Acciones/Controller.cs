@@ -37,10 +37,10 @@ namespace Acciones
                 aux.Nombre=lector.Lector.GetString(2);
                 aux.Descripcion = lector.Lector.GetString(3);
                 aux.Precio=lector.Lector.GetSqlMoney(4);
-                auxM.IDMarca = lector.Lector.GetInt32 (5);
-                auxM.DescripcionMarca = lector.Lector.GetString(6);
-                auxC.IDCategoria = lector.Lector.GetInt32(7);
-                auxC.DescripcionCaterogia= lector.Lector.GetString(8);
+                aux.marca.IDMarca = lector.Lector.GetInt32 (5);
+                aux.marca.DescripcionMarca = lector.Lector.GetString(6);
+                aux.categoria.IDCategoria = lector.Lector.GetInt32(7);
+                aux.categoria.DescripcionCaterogia= lector.Lector.GetString(8);
                 aux.Imagen=lector.Lector.GetString(9);
                                                                    
                 Lista.Add(aux);
@@ -73,10 +73,10 @@ namespace Acciones
                 aux.Nombre = nuevaConexion.Lector.GetString(2);
                 aux.Descripcion = nuevaConexion.Lector.GetString(3);
                 aux.Precio = nuevaConexion.Lector.GetSqlMoney(4);
-                auxM.IDMarca = nuevaConexion.Lector.GetInt32(5);
-                auxM.DescripcionMarca = nuevaConexion.Lector.GetString(6);
-                auxC.IDCategoria = nuevaConexion.Lector.GetInt32(7);
-                auxC.DescripcionCaterogia = nuevaConexion.Lector.GetString(8);
+                aux.marca.IDMarca = nuevaConexion.Lector.GetInt32(5);
+                aux.marca.DescripcionMarca = nuevaConexion.Lector.GetString(6);
+                aux.categoria.IDCategoria = nuevaConexion.Lector.GetInt32(7);
+                aux.categoria.DescripcionCaterogia = nuevaConexion.Lector.GetString(8);
                 aux.Imagen = nuevaConexion.Lector.GetString(9);
 
                 articuloList.Add(aux);
@@ -162,15 +162,15 @@ namespace Acciones
                 aux.Nombre = nuevaConexion.Lector.GetString(2);
                 aux.Descripcion = nuevaConexion.Lector.GetString(3);
                 aux.Precio = nuevaConexion.Lector.GetSqlMoney(4);
-                auxM.IDMarca = nuevaConexion.Lector.GetInt32(5);
-                auxM.DescripcionMarca = nuevaConexion.Lector.GetString(6);
-                auxC.IDCategoria = nuevaConexion.Lector.GetInt32(7);
-                auxC.DescripcionCaterogia = nuevaConexion.Lector.GetString(8);
+                aux.marca.IDMarca = nuevaConexion.Lector.GetInt32(5);
+                aux.marca.DescripcionMarca = nuevaConexion.Lector.GetString(6);
+                aux.categoria.IDCategoria = nuevaConexion.Lector.GetInt32(7);
+                aux.categoria.DescripcionCaterogia = nuevaConexion.Lector.GetString(8);
                 aux.Imagen = nuevaConexion.Lector.GetString(9);
 
                 auxResultado.Articulos.Add(aux);
-                auxResultado.Marcas.Add(auxM);
-                auxResultado.Categorias.Add(auxC);
+                auxResultado.Marcas.Add(aux.marca);
+                auxResultado.Categorias.Add(aux.categoria);
 
                 Resultado.Add(auxResultado);
             }
@@ -191,7 +191,7 @@ namespace Acciones
             try
             {
               
-                datos.setearQuery("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES ('"+artNuevo.Codigo+"','" + artNuevo.Nombre+"', '" + artNuevo.Descripcion + "','" + artNuevo.IDMarca + "','" + artNuevo.IDCategoria+ "','" + artNuevo.Precio + "') INSERT INTO IMAGENES(idArticulo, ImagenUrl) VALUES((SELECT MAX(id) FROM Articulos),'" + artNuevo.Imagen + "');");
+                datos.setearQuery("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES ('"+artNuevo.Codigo+"','" + artNuevo.Nombre+"', '" + artNuevo.Descripcion + "','" + artNuevo.marca.IDMarca+ "','" + artNuevo.categoria.IDCategoria+ "','" + artNuevo.Precio + "') INSERT INTO IMAGENES(idArticulo, ImagenUrl) VALUES((SELECT MAX(id) FROM Articulos),'" + artNuevo.Imagen + "');");
                 datos.ejecutarAccion();
         
             }
@@ -255,10 +255,10 @@ namespace Acciones
                 aux.Nombre = nuevaConexion.Lector.GetString(2);
                 aux.Descripcion = nuevaConexion.Lector.GetString(3);
                 aux.Precio = nuevaConexion.Lector.GetSqlMoney(4);
-                aux.IDMarca = nuevaConexion.Lector.GetInt32(5);
-                aux.Marca = nuevaConexion.Lector.GetString(6);
-                aux.IDCategoria = nuevaConexion.Lector.GetInt32(7);
-                aux.Categoria = nuevaConexion.Lector.GetString(8);
+                aux.marca.IDMarca = nuevaConexion.Lector.GetInt32(5);
+                aux.marca.DescripcionMarca = nuevaConexion.Lector.GetString(6);
+                aux.categoria.IDCategoria = nuevaConexion.Lector.GetInt32(7);
+                aux.categoria.DescripcionCaterogia = nuevaConexion.Lector.GetString(8);
                 aux.Imagen = nuevaConexion.Lector.GetString(9);
 
                 articuloList.Add(aux);
@@ -283,10 +283,10 @@ namespace Acciones
                 aux.Nombre = nuevaConexion.Lector.GetString(2);
                 aux.Descripcion = nuevaConexion.Lector.GetString(3);
                 aux.Precio = nuevaConexion.Lector.GetSqlMoney(4);
-                aux.IDMarca = nuevaConexion.Lector.GetInt32(5);
-                aux.Marca = nuevaConexion.Lector.GetString(6);
-                aux.IDCategoria = nuevaConexion.Lector.GetInt32(7);
-                aux.Categoria = nuevaConexion.Lector.GetString(8);
+                aux.marca.IDMarca = nuevaConexion.Lector.GetInt32(5);
+                aux.marca.DescripcionMarca = nuevaConexion.Lector.GetString(6);
+                aux.categoria.IDCategoria = nuevaConexion.Lector.GetInt32(7);
+                aux.categoria.DescripcionCaterogia = nuevaConexion.Lector.GetString(8);
                 aux.Imagen = nuevaConexion.Lector.GetString(9);
 
                 articuloList.Add(aux);

@@ -13,12 +13,11 @@ namespace Dominio
         public string Codigo { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-        /* se borrara esto
-        public int IDMarca { get; set; }
-        public string Marca { get; set; }   
-        public int IDCategoria { get; set; }
-        public string Categoria { get; set; }
-        */
+       
+        public Marca marca;
+
+        public Categoria categoria;
+
         public SqlMoney Precio { get; set; }
         public string Imagen { get; set; }
 
@@ -26,5 +25,16 @@ namespace Dominio
         {
 
         }
-    }   
+    }
+    public class Categoria
+    {
+        public int IDCategoria { get; set; }
+        public string DescripcionCaterogia { get; set; }
+    }
+    public class Marca
+    {
+        public int IDMarca { get; set; }
+        public string DescripcionMarca { get; set; }
+    }
+
 }

@@ -10,3 +10,9 @@ C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\Dominio\obj\Debu
 C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\Dominio\obj\Debug\Dominio.dll
 C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\Dominio\obj\Debug\Dominio.pdb
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Dominio\bin\Debug\Dominio.dll
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Dominio\bin\Debug\Dominio.pdb
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Dominio\obj\Debug\Dominio.dll
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Dominio\obj\Debug\Dominio.pdb

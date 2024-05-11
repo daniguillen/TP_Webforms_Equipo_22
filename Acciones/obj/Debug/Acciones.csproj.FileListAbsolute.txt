@@ -16,15 +16,6 @@ C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\Acciones\obj\Deb
 C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.csproj.Up2Date
 C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.dll
 C:\Users\zaske\OneDrive\Documentos\GitHub\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.pdb
-C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.csproj.AssemblyReference.cache
-C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.csproj.CoreCompileInputs.cache
-C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.dll
-C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.pdb
-C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\bin\Debug\Acciones.dll
-C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\bin\Debug\Acciones.pdb
-C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\bin\Debug\Dominio.dll
-C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\bin\Debug\Dominio.pdb
-C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.csproj.Up2Date
 C:\Users\user\Desktop\TUP\Programacion 3\TP3\TP_Winforms_Equipo_22\Acciones\bin\Debug\Acciones.dll
 C:\Users\user\Desktop\TUP\Programacion 3\TP3\TP_Winforms_Equipo_22\Acciones\bin\Debug\Acciones.pdb
 C:\Users\user\Desktop\TUP\Programacion 3\TP3\TP_Winforms_Equipo_22\Acciones\bin\Debug\Dominio.dll
@@ -34,3 +25,12 @@ C:\Users\user\Desktop\TUP\Programacion 3\TP3\TP_Winforms_Equipo_22\Acciones\obj\
 C:\Users\user\Desktop\TUP\Programacion 3\TP3\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.csproj.Up2Date
 C:\Users\user\Desktop\TUP\Programacion 3\TP3\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.dll
 C:\Users\user\Desktop\TUP\Programacion 3\TP3\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.pdb
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\bin\Debug\Acciones.dll
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\bin\Debug\Acciones.pdb
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\bin\Debug\Dominio.dll
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\bin\Debug\Dominio.pdb
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.csproj.AssemblyReference.cache
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.csproj.CoreCompileInputs.cache
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.csproj.Up2Date
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.dll
+C:\UTN\C3\PROGRAMACION3\TP3 CARRITO\TP_Winforms_Equipo_22\Acciones\obj\Debug\Acciones.pdb

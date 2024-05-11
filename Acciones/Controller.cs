@@ -15,7 +15,42 @@ namespace Acciones
     public class Controller
     {
 
+        public List<Articulo> listarConSP()
+        {
+            List<Articulo> Lista = new List<Articulo>();
+            List<Marca> ListaMarca = new List<Marca>();
+            List<Categoria> ListaCategoria = new List<Categoria>();
+            AccesoDatos lector = new AccesoDatos();
 
+            //  lector.setearQuery("SELECT a.id,a.Codigo, a.Nombre, a.Descripcion, a.Precio,  m.id as IDMarca, m.Descripcion AS Marca,  c.Id AS IDCategoria,  c.Descripcion ,i.ImagenUrl FROM ARTICULOS a inner JOIN marcas m ON a.IdMarca = m.Id inner JOIN categorias c ON a.idcategoria = c.id inner JOIN IMAGENES i ON a.id = i.IdArticulo;");
+            lector.setearProcedimiento("storedListar");
+            lector.ejecutarLectura();
+
+            while (lector.Lector.Read())
+            {
+
+                Articulo aux = new Articulo();
+                Marca auxM = new Marca();
+                Categoria auxC = new Categoria();
+
+                aux.id = lector.Lector.GetInt32(0);
+                aux.Codigo = lector.Lector.GetString(1);
+                aux.Nombre = lector.Lector.GetString(2);
+                aux.Descripcion = lector.Lector.GetString(3);
+                aux.Precio = lector.Lector.GetSqlMoney(4);
+                aux.marca.IDMarca = lector.Lector.GetInt32(5);
+                aux.marca.DescripcionMarca = lector.Lector.GetString(6);
+                aux.categoria.IDCategoria = lector.Lector.GetInt32(7);
+                aux.categoria.DescripcionCaterogia = lector.Lector.GetString(8);
+                aux.Imagen = lector.Lector.GetString(9);
+
+                Lista.Add(aux);
+
+            }
+
+            lector.cerrarConexion();
+            return Lista;
+        }
         public List<Articulo> ListarArticulo()
         {
             List<Articulo> Lista = new List<Articulo>();

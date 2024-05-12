@@ -20,10 +20,11 @@ namespace TP_Winforms_Equipo_22
             articulos = controller.ListarArticulo();
            
         }
-
+        
         public void BTNAgregar_Click(object sender, EventArgs e)
         {
-         
+
+        
             
         }
     }

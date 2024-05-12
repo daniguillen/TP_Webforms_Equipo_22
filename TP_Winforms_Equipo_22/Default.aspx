@@ -15,7 +15,7 @@
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text"><%= articulo.Nombre %> </p>
-       <asp:Button ID="BTNAgregar" runat="server" OnClick="BTNAgregar_Click" Text="Agregar" class="btn btn-primary" CommandArgument='<%articulo.id %>'/>
+       <asp:Button name= ""ID="<%= articulo.id %>" runat="server" OnClick="BTNAgregar_Click" Text="Agregar" class="btn btn-primary"/>
       </div>
     </div>
   </div>

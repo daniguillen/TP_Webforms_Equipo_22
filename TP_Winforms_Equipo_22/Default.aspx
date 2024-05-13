@@ -8,17 +8,16 @@
             <% foreach (Dominio.Articulo articulo in articulos) 
             { %>
   
-                    <div class="col">
-                    <div class="card">
-                        <img src="<%= articulo.Imagen %>" class="card-img-top",   alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text" id="cardID"><%= articulo.id %></p>
-                            <asp:Label ID="Label1" runat="server" Text='<%= articulo.id %>'></asp:Label>
-                        <asp:Button ID="BtnCard" runat="server" OnClick="BTNAgregar_Click" Text="Agregar" class="btn btn-primary" CommandArgument='<%= articulo.id %>' />
-                        </div>
-                    </div>
-                  </div>
+               <div class="col">
+                 <div class="card">
+                   <img src="<%= articulo.Imagen %>" class="card-img-top",   alt="...">
+                      <div class="card-body">
+                      <h5 class="card-title"><%= articulo.Nombre %></h5>
+                      <p class="card-text" id="cardID"><%= articulo.Descripcion %></p>
+                         <a href="Carrito.aspx?id=<%=articulo.id %>" class="btn btn-primary">Agregar</a>
+                      </div>
+                   </div>
+               </div>
  
             <% } %>
         </div>

@@ -23,37 +23,24 @@ namespace TP_Winforms_Equipo_22
                 if (Session["Carrito"] != null)
                     carrito = (List<Articulo>)Session["Carrito"];
                 else {
-                    Session.Add("Carrito", carrito);
+                    Session["Carrito"]= carrito;
                 }
 
 
             Controller controller = new Controller();
             articulos = controller.ListarArticulo();
 
+            Session["ListaArticulos"] = articulos;
 
-                Page.DataBind();
+            Page.DataBind();
 
             }
          
 
-
         }
 
-        public void BTNAgregar_Click(object sender, EventArgs e)
+        protected void LinkButton1_Click(object sender, EventArgs e)
         {
-
-            string parametro = ((LinkButton)sender).CommandArgument;
-            int id = int.Parse(parametro);
-            Articulo articulo = new Articulo();
-            articulo= articulos.Find(a => a.id == id);
-            Session.Add("Carrito", articulo);
-            
-
-
-
-
-
-
 
         }
     }

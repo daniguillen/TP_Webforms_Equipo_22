@@ -27,10 +27,19 @@
                         CommandName="Sumar" 
                         CommandArgument='<%# 
                         Container.DataItemIndex %>' />
+
+                    <asp:Button ID="BtnEliminar" 
+                        runat="server" 
+                        Text="Eliminar" 
+                        CommandName="Eliminar" 
+                        CommandArgument='<%# 
+                        Container.DataItemIndex %>' />
                 </ItemTemplate>
             </asp:TemplateField>
         </Columns>
     </asp:GridView>
+    <a  href="Default.aspx" class="btn btn-secondary">Seguir Comprando</a>
+    
 </asp:Content>
 
 

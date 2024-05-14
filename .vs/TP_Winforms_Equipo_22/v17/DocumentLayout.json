@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Carrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:TP_Winforms_Equipo_22\\Carrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\zaske\\onedrive\\documentos\\github\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\carrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\carrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\styleGeneral.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:TP_Winforms_Equipo_22\\styleGeneral.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD09C20F-ABE5-4C94-99C6-460453487116}|Dominio\\Dominio.csproj|C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\Dominio\\Articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD09C20F-ABE5-4C94-99C6-460453487116}|Dominio\\Dominio.csproj|solutionrelative:Dominio\\Articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\zaske\\onedrive\\documentos\\github\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:TP_Winforms_Equipo_22\\Default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:TP_Winforms_Equipo_22\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\zaske\\onedrive\\documentos\\github\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\zaske\\onedrive\\documentos\\github\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\carrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\carrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\zaske\\onedrive\\documentos\\github\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\carrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\carrito.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\zaske\\onedrive\\documentos\\github\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\zaske\\onedrive\\documentos\\github\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD09C20F-ABE5-4C94-99C6-460453487116}|Dominio\\Dominio.csproj|C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\Dominio\\Articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD09C20F-ABE5-4C94-99C6-460453487116}|Dominio\\Dominio.csproj|solutionrelative:Dominio\\Articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,22 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 370,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Carrito.aspx",
-              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Carrito.aspx",
-              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Carrito.aspx",
-              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Carrito.aspx",
-              "RelativeToolTip": "TP_Winforms_Equipo_22\\Carrito.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-13T01:02:18.906Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -76,57 +70,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Site.Master.cs",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Site.Master.cs",
+              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Site.Master.cs",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\Site.Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T02:34:37.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Site.Master",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Site.Master",
+              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Site.Master",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-14T02:44:21.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Site.Master.designer.cs",
+              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Site.Master.designer.cs",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Site.Master.designer.cs",
+              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Site.Master.designer.cs",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\Site.Master.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T02:44:19.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Carrito.aspx.cs",
               "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Carrito.aspx.cs",
               "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Carrito.aspx.cs",
               "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Carrito.aspx.cs",
               "RelativeToolTip": "TP_Winforms_Equipo_22\\Carrito.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAANAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T03:40:11.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "styleGeneral.css",
-              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\styleGeneral.css",
-              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\styleGeneral.css",
-              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\styleGeneral.css",
-              "RelativeToolTip": "TP_Winforms_Equipo_22\\styleGeneral.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-14T00:32:06.245Z",
+              "WhenOpened": "2024-05-14T02:32:28.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\Dominio\\Articulo.cs",
-              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\Dominio\\Articulo.cs",
-              "RelativeToolTip": "Dominio\\Articulo.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAswC4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T02:47:02.9Z"
+              "Title": "Carrito.aspx",
+              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Carrito.aspx",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Carrito.aspx",
+              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Carrito.aspx",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\Carrito.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-14T02:31:44.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Default.aspx.cs",
-              "RelativeToolTip": "TP_Winforms_Equipo_22\\Default.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T00:25:58.189Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Default.aspx",
               "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Default.aspx",
@@ -134,7 +143,34 @@
               "RelativeToolTip": "TP_Winforms_Equipo_22\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-12T00:30:10.721Z"
+              "WhenOpened": "2024-05-14T02:31:04.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "Dominio\\Articulo.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T02:47:02.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\zaske\\OneDrive\\Documentos\\GitHub\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Default.aspx.cs",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\Default.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T00:25:58.189Z",
+              "EditorCaption": ""
             }
           ]
         },

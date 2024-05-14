@@ -30,9 +30,24 @@ namespace TP_Winforms_Equipo_22
             Controller controller = new Controller();
             articulos = controller.ListarArticulo();
 
+
+                
+
             Session["ListaArticulos"] = articulos;
 
-            Page.DataBind();
+                if(carrito.Count > 0)
+                {
+                        int aux=0;
+                      //  Session["Cantidad"] = aux;
+                    for (int i = 0; i < carrito.Count; i++)
+                    {
+                        aux += carrito[i].Cantidad;
+                    }
+                LblCantidadTotal.Text = aux.ToString();
+                    
+                }
+                
+                Page.DataBind();
 
             }
          

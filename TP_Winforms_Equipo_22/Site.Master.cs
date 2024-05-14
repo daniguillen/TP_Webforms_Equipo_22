@@ -11,7 +11,14 @@ namespace TP_Winforms_Equipo_22
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["Cantidad"] != null)
+            {
+                lblCant.Text = Session["Cantidad"].ToString();
+            }
+            else
+            {
+                lblCant.Text = "0";
+            }
         }
     }
 }

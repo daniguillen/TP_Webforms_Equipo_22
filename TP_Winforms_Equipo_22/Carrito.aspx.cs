@@ -9,7 +9,19 @@ namespace TP_Winforms_Equipo_22
     public partial class Carrito : System.Web.UI.Page
     {
         public List<ArticuloEnCarrito> Listacarrito;
+        public void contadorCarrito() {
+            if (Listacarrito.Count > 0)
+            {
+                int aux = 0;
+                for (int i = 0; i < Listacarrito.Count; i++)
+                {
+                    aux += Listacarrito[i].Cantidad;
+                }
 
+                Session["Cantidad"] = aux.ToString();
+
+            }
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -38,6 +50,7 @@ namespace TP_Winforms_Equipo_22
                             }
 
                             Session["Carrito"] = Listacarrito;
+
                         }
                     }
                 }
@@ -46,8 +59,8 @@ namespace TP_Winforms_Equipo_22
                     Listacarrito = new List<ArticuloEnCarrito>();
                     Session["Carrito"] = Listacarrito;
                 }
-
                 dgvArticulos.DataSource = Listacarrito;
+                contadorCarrito();
                 dgvArticulos.DataBind();
             }
         }
@@ -60,15 +73,25 @@ namespace TP_Winforms_Equipo_22
             if (e.CommandName == "Sumar")
             {
                 Listacarrito[index].Cantidad++;
+                contadorCarrito();
+
             }
             else if (e.CommandName == "Restar" && Listacarrito[index].Cantidad > 1)
             {
                 Listacarrito[index].Cantidad--;
-            }
+                contadorCarrito();
 
+            }
+            else if (e.CommandName == "Eliminar")
+            {
+                Listacarrito.Remove(Listacarrito[index]) ;
+            }
             Session["Carrito"] = Listacarrito;
+            
             dgvArticulos.DataSource = Listacarrito;
+            contadorCarrito();
             dgvArticulos.DataBind();
+            
         }
     }
 }

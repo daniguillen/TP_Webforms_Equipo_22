@@ -15,12 +15,14 @@
                       <h5 class="card-title"><%= articulo.Nombre %></h5>
                       <p class="card-text" id="cardID"><%= articulo.Descripcion %></p>
                          <a href="Carrito.aspx?id=<%=articulo.id %>" class="btn btn-primary">Agregar</a>
+
                       </div>
                    </div>
                </div>
  
             <% } %>
         </div>
+    <asp:Label ID="LblCantidadTotal" runat="server" Text=""></asp:Label>
 
     
 

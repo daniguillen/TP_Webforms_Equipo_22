@@ -23,6 +23,7 @@ namespace Dominio
         public SqlMoney Precio { get; set; }
         public string Imagen { get; set; }
 
+        
         public void Cargar()
         {
 
@@ -40,6 +41,17 @@ namespace Dominio
         public int IDMarca { get; set; }
         public string DescripcionMarca { get; set; }
 
+    }
+    public class ArticuloEnCarrito
+    {
+        public Articulo Articulo { get; set; }
+        public int Cantidad { get; set; }
+
+        public ArticuloEnCarrito(Articulo articulo)
+        {
+            Articulo = articulo;
+            Cantidad = 1;
+        }
     }
 
 }

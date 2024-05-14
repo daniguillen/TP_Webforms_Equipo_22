@@ -19,9 +19,9 @@ namespace TP_Winforms_Equipo_22
             {
 
             articulos = new List<Articulo>();
-            List<Articulo> carrito = new List<Articulo>();
+            List<ArticuloEnCarrito> carrito = new List<ArticuloEnCarrito>();
                 if (Session["Carrito"] != null)
-                    carrito = (List<Articulo>)Session["Carrito"];
+                    carrito = (List<ArticuloEnCarrito>)Session["Carrito"];
                 else {
                     Session["Carrito"]= carrito;
                 }
@@ -39,9 +39,6 @@ namespace TP_Winforms_Equipo_22
 
         }
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

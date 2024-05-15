@@ -38,7 +38,10 @@
             </asp:TemplateField>
         </Columns>
     </asp:GridView>
-    <a  href="Default.aspx" class="btn btn-secondary">Seguir Comprando</a>
+    <div>
+        <a  href="Default.aspx" class="btn btn-secondary">Seguir Comprando</a>
+        <asp:Label ID="lbltotalCompra" CssClass="btn btn-outline-info" runat="server" Text=""></asp:Label>
+    </div>
     
 </asp:Content>
 

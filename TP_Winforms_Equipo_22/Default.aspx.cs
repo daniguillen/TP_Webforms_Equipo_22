@@ -6,15 +6,19 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Dominio;
 using Acciones;
+using System.Security.Cryptography.X509Certificates;
+using System.Management.Instrumentation;
 
 namespace TP_Winforms_Equipo_22
 {
     public partial class _Default : Page
     {
            public List<Articulo> articulos {  get; set; }
-
+           
         public void Page_Load(object sender, EventArgs e)
         {
+  
+
             if (!IsPostBack)
             {
 
@@ -30,9 +34,6 @@ namespace TP_Winforms_Equipo_22
             Controller controller = new Controller();
             articulos = controller.ListarArticulo();
 
-
-                
-
             Session["ListaArticulos"] = articulos;
 
                 if(carrito.Count > 0)
@@ -46,6 +47,7 @@ namespace TP_Winforms_Equipo_22
                 LblCantidadTotal.Text = aux.ToString();
                     
                 }
+
                 
                 Page.DataBind();
 
@@ -53,6 +55,8 @@ namespace TP_Winforms_Equipo_22
          
 
         }
+
+
 
         
     }

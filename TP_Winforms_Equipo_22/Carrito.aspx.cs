@@ -22,6 +22,29 @@ namespace TP_Winforms_Equipo_22
 
             }
         }
+
+        public void totalDeCompra() {
+
+            float aux = 0;
+
+            for (int i = 0; i < Listacarrito.Count; i++) 
+            {
+                
+                aux += Listacarrito[i].Cantidad * float.Parse(Listacarrito[i].Articulo.Precio.ToString());
+                
+            }
+            
+            if (aux != 0)
+            {   
+
+                lbltotalCompra.Text = "TOTAL= " + aux;
+            }
+            else
+            {
+                lbltotalCompra.Visible = false;
+            }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -59,19 +82,24 @@ namespace TP_Winforms_Equipo_22
                     Listacarrito = new List<ArticuloEnCarrito>();
                     Session["Carrito"] = Listacarrito;
                 }
+
+                totalDeCompra();
+
                 dgvArticulos.DataSource = Listacarrito;
                 contadorCarrito();
                 dgvArticulos.DataBind();
             }
         }
-
+        
         protected void dgvArticulos_RowCommand(object sender, GridViewCommandEventArgs e)
-        {
+        {   
+            
             int index = Convert.ToInt32(e.CommandArgument);
             Listacarrito = (List<ArticuloEnCarrito>)Session["Carrito"];
 
             if (e.CommandName == "Sumar")
             {
+                
                 Listacarrito[index].Cantidad++;
                 contadorCarrito();
 
@@ -82,12 +110,15 @@ namespace TP_Winforms_Equipo_22
                 contadorCarrito();
 
             }
-            else if (e.CommandName == "Eliminar")
+            else if (e.CommandName == "Eliminar" )
             {
                 Listacarrito.Remove(Listacarrito[index]) ;
+                contadorCarrito();
             }
             Session["Carrito"] = Listacarrito;
-            
+
+            totalDeCompra() ;
+
             dgvArticulos.DataSource = Listacarrito;
             contadorCarrito();
             dgvArticulos.DataBind();

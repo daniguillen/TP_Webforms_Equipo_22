@@ -15,3 +15,7 @@ a {
 .ocultar {
     display:none;
 }
+
+.carta:hover{
+    background-color: brown;
+}

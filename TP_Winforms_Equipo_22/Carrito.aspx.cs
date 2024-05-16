@@ -49,6 +49,12 @@ namespace TP_Winforms_Equipo_22
         {
             if (!IsPostBack)
             {
+                if (Request.QueryString["id"] == null)
+                {
+                    Response.Redirect("Default.aspx");
+                }
+
+
                 if (Session["Carrito"] != null && Session["ListaArticulos"] != null)
                 {
                     Listacarrito = (List<ArticuloEnCarrito>)Session["Carrito"];

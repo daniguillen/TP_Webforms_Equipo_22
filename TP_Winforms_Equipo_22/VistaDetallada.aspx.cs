@@ -14,12 +14,19 @@ namespace TP_Winforms_Equipo_22
 
         protected void Page_Load(object sender, EventArgs e)
         {
+
+          
             if (!IsPostBack)
             {
+                if(Request.QueryString["id"] == null)
+                {
+                    Response.Redirect("Default.aspx");
+                }
+
                 List<Dominio.Articulo> artVistaDetalle = new List<Dominio.Articulo>();
 
                 int id = int.Parse(Request.QueryString["id"]);
-
+                
                 artVistaDetalle = (List<Dominio.Articulo>)Session["ListaArticulos"];
 
                 art = artVistaDetalle.Find(x => x.id == id);

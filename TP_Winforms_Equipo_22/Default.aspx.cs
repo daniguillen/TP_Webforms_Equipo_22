@@ -8,6 +8,7 @@ using Dominio;
 using Acciones;
 using System.Security.Cryptography.X509Certificates;
 using System.Management.Instrumentation;
+using System.Diagnostics;
 
 namespace TP_Winforms_Equipo_22
 {
@@ -30,34 +31,48 @@ namespace TP_Winforms_Equipo_22
                     Session["Carrito"]= carrito;
                 }
 
-
             Controller controller = new Controller();
             articulos = controller.ListarArticulo();
 
             Session["ListaArticulos"] = articulos;
 
-                if(carrito.Count > 0)
-                {
-                        int aux=0;
-                      //  Session["Cantidad"] = aux;
-                    for (int i = 0; i < carrito.Count; i++)
-                    {
-                        aux += carrito[i].Cantidad;
-                    }
-                LblCantidadTotal.Text = aux.ToString();
-                    
-                }
-
-                
                 Page.DataBind();
 
             }
-         
-
         }
 
+        protected void BTN_buscar_Click(object sender, EventArgs e)
+        {
+            string nombre_buscar = TxtBox_busqueda.Text;
 
+            // Obtener la lista de artículos de la sesión
+            articulos = (List<Articulo>)Session["ListaArticulos"];
 
-        
+            articulos = BusquedaGeneral(nombre_buscar, "Nombre");
+
+            Page.DataBind();
+        }
+
+          
+        public List<Articulo> BusquedaGeneral(string a, string b)
+        {
+            b = DropDownList1.SelectedValue;
+            List <Articulo> Resultado = new List<Articulo>();
+            switch (b){ 
+                
+                case "Marca":
+                    Resultado = articulos.FindAll(x => x.marca.DescripcionMarca.ToLower().Contains(a.ToLower()));
+                    break;
+                case "Categoria":
+                    Resultado = articulos.FindAll(x => x.categoria.DescripcionCaterogia.ToLower().Contains(a.ToLower()));
+                    break;
+                case "Nombre":
+                    Resultado = articulos.FindAll(x => x.Nombre.ToLower().Contains(a.ToLower()));
+                    break;
+
+            };
+                      
+            return Resultado;
+        }
     }
 }

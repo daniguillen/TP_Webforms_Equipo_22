@@ -21,6 +21,7 @@ namespace TP_Winforms_Equipo_22
                 Session["Cantidad"] = aux.ToString();
 
             }
+            else { Session["Cantidad"] = ""; }
         }
 
         public void totalDeCompra() {
@@ -49,7 +50,7 @@ namespace TP_Winforms_Equipo_22
         {
             if (!IsPostBack)
             {
-                if (Request.QueryString["id"] == null)
+                if (Request.QueryString["id"]  == null && Session["Carrito"]== null)
                 {
                     Response.Redirect("Default.aspx");
                 }
@@ -107,26 +108,26 @@ namespace TP_Winforms_Equipo_22
             {
                 
                 Listacarrito[index].Cantidad++;
-                contadorCarrito();
+               
 
             }
             else if (e.CommandName == "Restar" && Listacarrito[index].Cantidad > 1)
             {
                 Listacarrito[index].Cantidad--;
-                contadorCarrito();
+               
 
             }
             else if (e.CommandName == "Eliminar" )
             {
                 Listacarrito.Remove(Listacarrito[index]) ;
-                contadorCarrito();
+               
             }
             Session["Carrito"] = Listacarrito;
-
+            Response.Redirect("Carrito.aspx");
             totalDeCompra() ;
 
             dgvArticulos.DataSource = Listacarrito;
-            contadorCarrito();
+           
             dgvArticulos.DataBind();
             
         }

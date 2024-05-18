@@ -17,7 +17,7 @@ namespace TP_Winforms_Equipo_22
             }
             else
             {
-                lblCant.Text = "0";
+                lblCant.Text = "";
             }
         }
     }

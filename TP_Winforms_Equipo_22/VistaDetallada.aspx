@@ -13,7 +13,8 @@
             <h4 class="card-title">$<%=art.Precio %></h4>
             <p class="card-text"><%=art.Descripcion %></p>
             <p class="card-text"><small class="text-body-secondary">Codigo: <%=art.Codigo %></small></p>
-            <a href="Carrito.aspx?id=<%=art.id %>" class="btn btn-primary">Agregar</a>
+            <a href="Carrito.aspx?id=<%=art.id %>" class="btn btn-primary">Comprar</a>
+            <a href="Default.aspx?id=<%=art.id %>" class="btn btn-primary">Volver</a>
 
         </div>
     </div>

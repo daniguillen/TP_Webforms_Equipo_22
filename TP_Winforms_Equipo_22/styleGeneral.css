@@ -1,4 +1,5 @@
 ﻿body {
+    background-color: black;
 }
 @media only screen and (min-width: 1024px)  {
     .responsiveAprendizaje {
@@ -25,3 +26,44 @@ h5 {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+
+#ContenedorImagen {
+    width: 100%;
+    height: 35em;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#ContenedorImagen img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.revisionPadding{
+    padding:0 0 10px 0 !important;
+    
+}
+
+p,h1,h2,h3, span, label {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 2;
+    color: #212529;
+}
+
+h1 {  
+    font-weight: 900;
+}
+h2 {
+    font-weight: 750;
+}
+h3 {
+    font-weight: 800;
+}
+/*  Footeeer */

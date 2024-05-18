@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Dominio;
@@ -26,19 +27,19 @@ namespace TP_Winforms_Equipo_22
 
         public void totalDeCompra() {
 
-            float aux = 0;
+            SqlMoney aux = 0;
 
             for (int i = 0; i < Listacarrito.Count; i++) 
             {
                 
-                aux += Listacarrito[i].Cantidad * float.Parse(Listacarrito[i].Articulo.Precio.ToString());
+                aux += Listacarrito[i].Cantidad * SqlMoney.Parse(Listacarrito[i].Articulo.Precio.ToString());
                 
             }
             
             if (aux != 0)
             {   
-
-                lbltotalCompra.Text = "TOTAL= " + aux;
+                
+                lbltotalCompra.Text = "TOTAL= $" + aux;
             }
             else
             {
@@ -87,7 +88,7 @@ namespace TP_Winforms_Equipo_22
                 else
                 {
                     Listacarrito = new List<ArticuloEnCarrito>();
-                    Session["Carrito"] = Listacarrito;
+                   // Session["Carrito"] = Listacarrito;
                 }
 
                 totalDeCompra();

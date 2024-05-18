@@ -21,7 +21,7 @@ namespace Dominio
         public Categoria categoria = new Categoria();
 
         public SqlMoney Precio { get; set; }
-        public string Imagen { get; set; }
+        public List<string> Imagen { get; set; }
 
         
         public void Cargar()

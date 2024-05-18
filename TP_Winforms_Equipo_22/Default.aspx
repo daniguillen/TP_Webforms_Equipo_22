@@ -4,17 +4,17 @@
 
     <h1>Catalogo</h1>
                    
-  
+    <div>
             <asp:TextBox ID="TxtBox_busqueda" runat="server" placeholder="Busqueda"></asp:TextBox>
-
+    <span class="glyphicon glyphicon-search"></span>
             <asp:Button ID="BTN_buscar" runat="server" Text="Buscar" class="btn btn-primary" OnClick="BTN_buscar_Click" />
-
+        </div>
            <asp:DropDownList ID="DropDownList1" runat="server" class="form-select">
-           
-            <asp:ListItem Value="Nombre">Nombre</asp:ListItem>
+           <asp:ListItem Value="Nombre">Nombre</asp:ListItem>
             <asp:ListItem Value="Marca">Marca</asp:ListItem>
             <asp:ListItem Value="Categoria">Categoría</asp:ListItem>
             </asp:DropDownList>
+  
         
     
         <div class="row row-cols-1 row-cols-md-3 g-4 ">

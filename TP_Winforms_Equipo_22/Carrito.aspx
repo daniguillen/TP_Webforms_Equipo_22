@@ -14,7 +14,8 @@
                 <ItemTemplate>
                     <asp:Button ID="btnRestar" runat="server" Text="-" 
                         CommandName="Restar" 
-                        CommandArgument='<%# Container.DataItemIndex %>' />
+                        CommandArgument='<%# Container.DataItemIndex %>'
+                         CssClass="btn btn-secondary"/>
                     <asp:Label 
                         ID="lblCantidad" 
                         runat="server" 
@@ -24,16 +25,19 @@
                     <asp:Button ID="btnSumar" 
                         runat="server" 
                         Text="+" 
+                         CssClass="btn btn-secondary"
                         CommandName="Sumar" 
                         CommandArgument='<%# 
                         Container.DataItemIndex %>' />
 
-                    <asp:Button ID="BtnEliminar" 
+                      <asp:Button ID="BtnEliminar" 
                         runat="server" 
-                        Text="Eliminar" 
+                        text="Eliminar"
+                        CssClass="btn btn-danger"
                         CommandName="Eliminar" 
-                        CommandArgument='<%# 
-                        Container.DataItemIndex %>' />
+                        CommandArgument='<%# Container.DataItemIndex %>'>
+                      </asp:Button>
+                    <span class="glyphicon glyphicon-trash" style="margin-left: 5px;"></span>
                 </ItemTemplate>
             </asp:TemplateField>
         </Columns>

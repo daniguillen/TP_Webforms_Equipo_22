@@ -67,3 +67,16 @@ h3 {
     font-weight: 800;
 }
 /*  Footeeer */
+.catidadcarrito{
+    color:white;
+}
+.ContVistaDetalle{
+
+    max-height: 80vh;
+    overflow: hidden;
+
+}
+#carouselExampleAutoplaying img{
+    max-width:40%;
+    max-height:40vh;
+}

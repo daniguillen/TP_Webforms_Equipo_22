@@ -54,7 +54,7 @@
                <div class="col">
                  <div class="card">
                      <div class="card-body" id="ContenedorImagen">
-                   <img src="<%= articulo.Imagen %>" class="card-img-top imagenGaleria",   alt="...">
+                   <img src="<%=articulo.Imagen[0] %>" class="card-img-top imagenGaleria",   alt="...">
                      </div>
                       <div class="card-body revisionPadding">
                       <h3 class="card-title text-center"><%= articulo.Nombre %></h3>

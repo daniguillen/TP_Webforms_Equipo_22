@@ -39,8 +39,8 @@
                     <img src="<%=articulo.Imagen[0] %>" class="card-img-top imagenGaleria" alt="..." />
                 </div>
                 <div class="card-body revisionPadding" style="background-color:gray ">
-                    <h3 class="card-title text-center"><%= articulo.Nombre %></h3>
-                    <p class="card-text text-center mt-3 mb-3" id="cardID"><%= articulo.Descripcion %></p>
+                    <h2 class="card-title text-center"><%= articulo.Nombre %></h2>
+                    <h3 class="card-text text-center mt-3 mb-3" id="cardID"><%= articulo.Descripcion %></h3>
                     <div class="d-flex justify-content-around mt-3">
                         <a href="Carrito.aspx?id=<%=articulo.id %>" class="btn btn-primary">Comprar</a>
                         <a href="VistaDetallada.aspx?id=<%=articulo.id %>" class="btn btn-primary">Detalle</a>

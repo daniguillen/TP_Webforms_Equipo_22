@@ -7,8 +7,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="sec-head bord-thin-bottom pb-20 mb-80 d-flex justify-content-evenly">
-                        <h2><%=art.Nombre %></h2>
-                        <h2>Marca: <%=art.marca.DescripcionMarca %></h2>
+                        <h1><%=art.Nombre %></h1>
+                        <h1>Marca: <%=art.marca.DescripcionMarca %></h1>
                     </div>
                 </div>
             </div>
@@ -56,10 +56,10 @@
                 <div class="row">
                     <div class="col-12 ">
 
-                        <p>Categoria: <%=art.categoria.DescripcionCaterogia %></p>
-                        <p>Precio: $<%=art.Precio %></p>
-                        <p>Descripcion: <%=art.Descripcion %></p>
-                        <p>Codigo: <%=art.Codigo %></p>
+                        <h3>Categoria: <%=art.categoria.DescripcionCaterogia %></h3>
+                        <h3>Precio: $<%=art.Precio %></h3>
+                        <h3>Descripcion: <%=art.Descripcion %></h3>
+                        <h3>Codigo: <%=art.Codigo %></h3>
                     </div>
 
 

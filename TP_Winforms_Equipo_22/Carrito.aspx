@@ -22,8 +22,9 @@
                     <asp:Label
                         ID="lblCantidad"
                         runat="server"
-                        Text='<%# Bind("Cantidad") %>'>
-
+                        Text='<%# Bind("Cantidad") %>'
+                        CssClass="text-dark">
+                        
                     </asp:Label>
                     <asp:Button ID="btnSumar"
                         runat="server"

@@ -50,6 +50,12 @@
         </div>
 
         <% } %>
+        <%if(articulos.Count() == 0)
+            {%>
+                <h2 class="card-title text-center"> !!No se encontro artículo!! </h2>
+                 <a href="Default.aspx" class="btn btn-primary" style=" width:auto;">Volver</a>
+           <% }%>  
+
     </div>
 
 

@@ -13,7 +13,7 @@
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control mb-4" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" class="btn btn-primary me-3 ms-2" />
+                <asp:Button ID="btnEnviar" runat="server" Text="Enviar" OnClick="Button1_Click" class="btn btn-primary me-3 ms-2" />
                 <asp:Label ID="LblMensajeEnviado" runat="server"></asp:Label>
             </div>
         </main>

@@ -107,8 +107,8 @@ h3 {
     border: none;
 }
 .btnsearch:focus {
-        outline: none; /* Elimina el borde de enfoque */
-        border: none; /* Elimina el borde */
+        outline: none; 
+        border: none; 
  }
 .bordebusqueda{
     width:200px;
@@ -140,9 +140,34 @@ h3 {
 }
 .menusom a:hover {
     color: white !important;
-    text-decoration: none;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: olivedrab;
+    
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+
+    .carousel-inner img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    max-height: 600px;
+        }
+a:hover {
+    text-decoration: none !important;
+
+}
+.cuadroVentas{
+    overflow:hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.table{
+    margin: 0;
 }

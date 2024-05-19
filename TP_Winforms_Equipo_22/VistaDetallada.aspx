@@ -13,8 +13,8 @@
                 </div>
             </div>
             <div class="row">
-                <div style="max-width: 100%;" class="d-flex justify-content-center mb-30 col-6">
-                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="max-width: 600px;">
+                <div style="max-width: 100%;" class="d-flex justify-content-center mb-30 col-6 ">
+                    <div id="carouselExampleCaptions" class="carousel slide carousel-dark" data-bs-ride="carousel" style="max-width: 600px;">
                         <div class="carousel-indicators">
                             <% for (int i = 0; i < art.Imagen.Count; i++)
                                 { %>
@@ -29,7 +29,7 @@
                                     string activeClass = i == 0 ? "active" : "";
                             %>
                             <div class="carousel-item <%=activeClass %>">
-                                <img src="<%=imagenUrl %>" style="max-width: 600px;" class="rounded d-block w-100" alt="...">
+                                <img src="<%=imagenUrl %>" class="rounded d-block w-100 img-fluid" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 style="display: none;">Slide <%=i + 1 %></h5>
                                     <p style="display: none;">Imagen <%=i + 1 %></p>
@@ -38,11 +38,11 @@
                             <% } %>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style="color:olivedrab">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="carousel-control-prev-icon rounded-circle" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" style="color:olivedrab">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="carousel-control-next-icon rounded-circle" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>

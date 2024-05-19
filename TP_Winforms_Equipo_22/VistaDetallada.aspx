@@ -8,7 +8,7 @@
                 <div class="col-12">
                     <div class="sec-head bord-thin-bottom pb-20 mb-80 d-flex justify-content-evenly">
                         <h2><%=art.Nombre %></h2>
-                        <h2><small class="text-body-secondary">Marca:</small> <%=art.marca.DescripcionMarca %></h2>
+                        <h2>Marca: <%=art.marca.DescripcionMarca %></h2>
                     </div>
                 </div>
             </div>
@@ -37,11 +37,11 @@
                             </div>
                             <% } %>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style="color:olivedrab">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" style="color:olivedrab">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -56,10 +56,10 @@
                 <div class="row">
                     <div class="col-12 ">
 
-                        <p>Categoria:<small class="text-body-secondary"> <%=art.categoria.DescripcionCaterogia %></small></p>
-                        <p>Precio:<small class="text-body-secondary"> $<%=art.Precio %></small></p>
-                        <p>Descripcion:<small class="text-body-secondary"> <%=art.Descripcion %></small></p>
-                        <p>Codigo:<small class="text-body-secondary"> <%=art.Codigo %></small></p>
+                        <p>Categoria: <%=art.categoria.DescripcionCaterogia %></p>
+                        <p>Precio: $<%=art.Precio %></p>
+                        <p>Descripcion: <%=art.Descripcion %></p>
+                        <p>Codigo: <%=art.Codigo %></p>
                     </div>
 
 

@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\UTN\\C3\\PROGRAMACION3\\TP3 CARRITO\\TP_Winforms_Equipo_22\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\utn\\c3\\programacion3\\tp3 carrito\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\stylegeneral.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\user\\desktop\\tup\\programacion 3\\tp3\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\user\\desktop\\tup\\programacion 3\\tp3\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\carrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\carrito.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\user\\desktop\\tup\\programacion 3\\tp3\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\user\\desktop\\tup\\programacion 3\\tp3\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\stylegeneral.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\stylegeneral.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\utn\\c3\\programacion3\\tp3 carrito\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\vistadetallada.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\vistadetallada.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\users\\user\\desktop\\tup\\programacion 3\\tp3\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|c:\\utn\\c3\\programacion3\\tp3 carrito\\tp_winforms_equipo_22\\tp_winforms_equipo_22\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{BB8B3D8E-4430-4BB8-80F8-9E901BB0EEBF}|TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22.csproj|solutionrelative:tp_winforms_equipo_22\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{299538DF-0D7A-47A4-AA55-81FDCCAED0BC}|Acciones\\Acciones.csproj|c:\\users\\user\\desktop\\tup\\programacion 3\\tp3\\tp_winforms_equipo_22\\acciones\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299538DF-0D7A-47A4-AA55-81FDCCAED0BC}|Acciones\\Acciones.csproj|solutionrelative:acciones\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,28 +33,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 114,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 166,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
@@ -51,47 +47,73 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VistaDetallada.aspx",
-              "DocumentMoniker": "C:\\UTN\\C3\\PROGRAMACION3\\TP3 CARRITO\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\VistaDetallada.aspx",
-              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\VistaDetallada.aspx",
-              "ToolTip": "C:\\UTN\\C3\\PROGRAMACION3\\TP3 CARRITO\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\VistaDetallada.aspx",
-              "RelativeToolTip": "TP_Winforms_Equipo_22\\VistaDetallada.aspx",
+              "Title": "Carrito.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Carrito.aspx",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Carrito.aspx",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Carrito.aspx",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\Carrito.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-19T04:07:13.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "styleGeneral.css",
-              "DocumentMoniker": "C:\\UTN\\C3\\PROGRAMACION3\\TP3 CARRITO\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\styleGeneral.css",
-              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\styleGeneral.css",
-              "ToolTip": "C:\\UTN\\C3\\PROGRAMACION3\\TP3 CARRITO\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\styleGeneral.css",
-              "RelativeToolTip": "TP_Winforms_Equipo_22\\styleGeneral.css",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAwwJIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-19T02:57:39.424Z",
+              "WhenOpened": "2024-05-19T19:42:02.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\UTN\\C3\\PROGRAMACION3\\TP3 CARRITO\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Default.aspx",
-              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Default.aspx",
-              "ToolTip": "C:\\UTN\\C3\\PROGRAMACION3\\TP3 CARRITO\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Default.aspx",
-              "RelativeToolTip": "TP_Winforms_Equipo_22\\Default.aspx",
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Site.Master",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Site.Master",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Site.Master",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\Site.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-19T02:49:25.074Z",
+              "WhenOpened": "2024-05-19T18:19:36.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\Acciones\\Controller.cs",
+              "RelativeDocumentMoniker": "Acciones\\Controller.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\Acciones\\Controller.cs",
+              "RelativeToolTip": "Acciones\\Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:12:16.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contact.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Contact.aspx.cs",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Contact.aspx.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Contact.aspx.cs",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\Contact.aspx.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:09:10.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Contact.aspx",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\Contact.aspx",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\Contact.aspx",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-19T17:56:04.245Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 62,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -100,6 +122,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styleGeneral.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\styleGeneral.css",
+              "RelativeDocumentMoniker": "TP_Winforms_Equipo_22\\styleGeneral.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\TUP\\Programacion 3\\TP3\\TP_Winforms_Equipo_22\\TP_Winforms_Equipo_22\\styleGeneral.css",
+              "RelativeToolTip": "TP_Winforms_Equipo_22\\styleGeneral.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-19T18:19:29.551Z",
+              "EditorCaption": ""
             }
           ]
         }

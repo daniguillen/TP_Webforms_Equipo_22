@@ -1,19 +1,22 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="TP_Winforms_Equipo_22.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <main aria-labelledby="title">
-        <h2 id="title"><%: Title %>.</h2>
-        <h3>Your contact page.</h3>
-        <address>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399<br />
-            <abbr title="Phone">P:</abbr>
-            425.555.0100
-        </address>
+    <div class="d-flex justify-content-center">
+        <main aria-labelledby="title">
 
-        <address>
-            <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-            <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-        </address>
-    </main>
+            <h2 class="text-center">Contacto</h2>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control mb-4" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" class="btn btn-primary me-3 ms-2" />
+                <asp:Label ID="LblMensajeEnviado" runat="server"></asp:Label>
+            </div>
+        </main>
+    </div>
+
 </asp:Content>

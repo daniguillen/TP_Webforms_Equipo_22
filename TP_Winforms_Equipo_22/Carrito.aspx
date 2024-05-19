@@ -37,6 +37,7 @@
                         CommandName="Eliminar" 
                         CommandArgument='<%# Container.DataItemIndex %>'>
                       </asp:Button>
+                          <span class="material-icons">delete</span>
                     <span class="glyphicon glyphicon-trash" style="margin-left: 5px;"></span>
                 </ItemTemplate>
             </asp:TemplateField>

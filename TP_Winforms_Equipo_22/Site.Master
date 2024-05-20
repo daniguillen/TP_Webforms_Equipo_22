@@ -4,20 +4,20 @@
 
 <html lang="es">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Carrito de compras   </title>
+    <title>Carrito de compras   </title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"     rel="stylesheet">        
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="styleGeneral.css" rel="stylesheet" />
 
 </head>
@@ -52,19 +52,28 @@
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1 align-items-center">
-                        
-                        <li class="nav-item menusom ms-xxl-5 " ><a class="nav-link" runat="server" href="~/">Inicio</a></li>
+
+                        <li class="nav-item menusom ms-xxl-5 "><a class="nav-link" runat="server" href="~/">Inicio</a></li>
                         <li class="nav-item menusom ms-xxl-5 "><a class="nav-link" runat="server" href="~/About">Acerca de</a></li>
                         <li class="nav-item menusom ms-xxl-5 "><a class="nav-link" runat="server" href="~/Contact">Contacto</a></li>
-                        
+
+                        <% 
+                            int cantidad = 0;
+                            if (Session["Cantidad"] != null && int.TryParse(Session["Cantidad"].ToString(), out cantidad) && cantidad > 0)
+                            {
+                        %>
                         <li class="nav-item ms-xxl-5  pulse"><a class="nav-link" runat="server" href="~/Carrito">
-                           <div class="carritosom">
-                          <span class="glyphicon glyphicon-shopping-cart"  ><asp:Label ID="lblCant" runat="server" 
-                              Text="Label" Csslass="catidadcarrito" ></asp:Label></span> 
-                            </div>                        
+                            <div class="carritosom">
+                                <span class="glyphicon glyphicon-shopping-cart justify-content-center d-flex align-items-baseline" >
+                                    <asp:Label ID="lblCant" runat="server"
+                                        Text="Label" Csslass="catidadcarrito"></asp:Label></span>
+                            </div>
                         </a>
                         </li>
-                        
+
+                        <% 
+                            }
+                        %>
                     </ul>
                 </div>
             </div>
